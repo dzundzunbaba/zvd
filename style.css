@@ -1,36 +1,171 @@
 body {
-    font-family: sans-serif;
-}
-
-h1 {
-    text-align: center;
-    font-size: 60px;
-}
-
-h2{
-    font-size: 40px;
-    background-color: peru;
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ margin: 0;
+ padding: 0;
+ background-color: rgb(173, 0, 150);
 }
 
 a {
-    color: black;
-    font-size: 20px;
+ font-weight: bold;
+ color: #0077cc;
+ text-decoration: none;
 }
 
-p, img {
-    border: 3px solid peru;
+header {
+ background-color: #e100ff;
+ color: rgb(110, 0, 201);
+ padding: 20px;
 }
 
-p, table {
-    font-size: 20px;
+nav ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ flex-flow: row wrap;
+ align-items: center;
 }
 
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
+nav li {
+ margin: 0 10px;
 }
 
-td{
-    border: 1px solid brown;
+nav a {
+ color: #fff;
 }
+
+main {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 20px;
+}
+
+h1 {
+ font-size: 36px;
+ font-weight: bold;
+ text-align: center;
+}
+
+h2 {
+ font-size: 24px;
+ font-weight: bold;
+ margin-top: 40px;
+}
+
+h3 {
+ font-size: 20px;
+ font-weight: bold;
+}
+
+ul {
+ padding: 0;
+ margin: 0;
+ list-style-type: none;
+}
+
+li {
+ margin-bottom: 20px;
+}
+
+.cta {
+ background-color: #e100ff;
+ color: #fff;
+ padding: 40px;
+ text-align: center;
+ margin-top: 40px;
+}
+
+.cta h2 {
+ margin-bottom: 20px;
+}
+
+.cta a {
+ background-color: #fff;
+ color: #e100ff;
+ padding: 10px 20px;
+ border-radius: 5px;
+ text-decoration: none;
+}
+
+.cta a:hover {
+ background-color: #e100ff;
+ color: #fff;
+}
+
+
+/* Медиа запросы */
+
+
+ header {
+  padding: 10px;
+ }
+
+ h1 {
+  font-size: 24px;
+ }
+
+ h2 {
+  font-size: 18px;
+ }
+
+ nav ul {
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+ }
+
+ nav a {
+  display: block;
+  padding: 10px;
+ }
+
+ main {
+  padding: 10px;
+ }
+
+ .cta {
+  padding: 20px;
+ }
+
+ .cta h2 {
+  font-size: 24px;
+ }
+
+ .cta a {
+  padding: 10px 20px;
+ }
+
+}
+
+@media (max-width: 480px) {
+
+ h1 {
+  font-size: 20px;
+ }
+
+ h2 {
+  font-size: 16px;
+ }
+
+ nav li {
+  margin: 0 5px;
+ }
+
+ nav a {
+  font-size: 14px;
+ }
+
+ .cta h2 {
+  font-size: 20px;
+ }
+
+ .cta a {
+  font-size: 14px;
+  padding: 10px 15px;
+ }
+
+ k1{
+    background-color: violet;
+ }
+
